@@ -1,13 +1,9 @@
 ### SYSTEM / DOCUMENTATION / FUNCTIONS
 - SIGNATURE: Function signature, a one-line purpose statement and function stub;
-- i.e.
-
-
-def sqr(n):
-    Real -> Real
-    Produces the square of n
-    return 0
-
+- i.e. def sqr(n):
+    - Real -> Real
+    - Produces the square of n
+    - return 0
 
 - [...]
 
