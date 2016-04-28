@@ -14,4 +14,4 @@
 - [...]
 
 ## [BACK TO REFCARDS / SYSTEM] (https://github.com/Refcards/System)
-# [OR: BACK TO REFCARDS / INDEX] (https://github.com/Refcards/Index/blob/master/README.md)
+# [BACK TO REFCARDS / INDEX] (https://github.com/Refcards/Index/blob/master/README.md)
