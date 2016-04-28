@@ -1,6 +1,24 @@
 ### SYSTEM / DOCUMENTATION / FUNCTIONS
 - SIGNATURE: Function signature, a one-line purpose statement and function stub;
 - A signature has the type of each argument, separated by spaces, followed by ->, followed by the type of result. So a function that consumes an image and produces a number would have the signature Image -> Number.
+- Note that the stub is a syntactically complete function definition that produces a value of the right type. If the type is Number it is common to use 0, if the type is String it is common to use "a" and so on.
+- The purpose of the stub is to serve as a kind of scaffolding to make it possible to run the examples even before the function design is complete. With the stub in place check-expects that call the function can run. Most of them will fail of course, but the fact that they can run at all allows you to ensure that they are at least well-formed: parentheses are balanced, function calls have the proper number of arguments, function and constant names are correct and so on. This is very important, the sooner you find a mistake -- even a simple one -- the easier it is to fix.
+- Define examples, wrap each one in check-expect.
+- Write at least one example of a call to the function and the expected result the call should produce.
+- You will often need more examples, to help you better understand the function or to properly test the function. (If once your function works and you run the program some of the code is highlighted in black it means you definitely do not have enough examples.) If you are unsure how to start writing examples use the combination of the function signature and the data definition(s) to help you generate examples. Often the example data from the data definition is useful, but it does not necessarily cover all the important cases for a particular function.
+- The first role of an example is to help you understand what the function is supposed to do. If there are boundary conditions be sure to include an example of them. If there are different behaviours the function should have, include an example of each.
+- The existence of the stub will allow you to run the tests. Most (or even all) of the tests will fail since the stub is returning the same value every time. But you will at least be able to check that the parentheses are balanced, that you have not misspelled function names etc.
+- Template and inventory
+- Before coding the function body it is helpful to have a clear sense of what the function has to work with -- what is the contents of your bag of parts for coding this function? The template provides this.
+- Code the function body
+- Now complete the function body by filling in the template.
+- Note that:
+    - the signature tells you the type of the parameter(s) and the type of the data the function body must produce
+    - the purpose describes what the function body must produce in English
+    - the examples provide several concrete examples of what the function body must produce
+    - the template tells you the raw material you have to work with
+- Test and debug until correct
+- Run the program and make sure all the tests pass, if not debug until they do. Many of the problems you might have had will already have been fixed because of following the "run early, run often" approach. But if not, debug until everything works.
 - i.e. def sqr(n):
     - Real -> Real
     - Produces the square of n
