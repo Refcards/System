@@ -13,5 +13,6 @@
 - Constraints in the temporal dimension, i.e. schedules to follow, due-dates to respect, etc.; ("TIMELINE COMPLEXITY/ENTANGLEMENT");
 - [...]
 
+### [SEE: REFCARDS / SYSTEM / INTERNALS] (https://github.com/Refcards/System/tree/master/Internals)
 ## [BACK TO REFCARDS / SYSTEM] (https://github.com/Refcards/System)
 # [BACK TO REFCARDS / INDEX] (https://github.com/Refcards/Index/blob/master/README.md)
